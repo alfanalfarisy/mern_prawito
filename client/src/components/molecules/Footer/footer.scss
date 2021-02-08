@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding :20px;
+    margin :0px;
+    background-color: #68b35c;
+    .logo {
+        height :30px;
+        width :30px;
+        object-fit: contain;
+    }
+    .social-wrapper{
+        display: flex;
+        .icon-wrapper{
+            background-color:white;
+            padding: 10px;
+            margin: 0 10px;;
+            border-radius: 40px;
+            .icon-medsos{
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+            }
+        }
+    }
+}
+.copyright{
+    p{
+        font-size:14px;
+        color:white;
+        text-align:center;
+        margin: 0;
+    }
+    padding: 100 0px;;
+    background-color: green;
+}
